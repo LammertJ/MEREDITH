@@ -14,4 +14,9 @@ To execute Meredith, you will need:
 
 ## Patient input data
 - Patient input data is provided in [patient.json](https://github.com/LammertJ/MEREDITH/blob/main/src/meredith/patients.json). These patients are synthetic patients that were used in previous studies, e.g., [Benary et al., 2023](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2812097)
+- MRI TUM MTB annotations for patients are stored as `mtb_recommendations`. These are used to calculate cosine similarity scores
 - Patient input data can be modified. We performed pre-screening on patient input data to identify and separate pathogenic mutations in `tumor_pathogenic` to optimize load on the system. Only pathogenic mutations will be processed
+
+## Cosine similarity score
+- A cosine similarity score is calculated after LLM annotations are completed
+- Cosine similarity scores use the cosine similarity between two arrays of Vector embeddings to calculate the semantic similarity between two texts. They are commonly in a range between 0.5 and 0.9, with 0.5 being the lowest and 0.9 being the highest cosine similarity
