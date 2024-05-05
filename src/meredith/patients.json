@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "age": 56,
+    "sex": "",
+    "diagnosis": "Lung Adenocarcinoma",
+    "stage": "IV",
+    "type": "Panel",
+    "germline_alteration": [],
+    "tumor_alteration": [
+      "KRAS p.G13D Mutation",
+      "TP53 p.A276G Mutation",
+      "PTPRS R238* Mutation",
+      "ZFHX3 p.F2994L Mutation",
+      "CDH1 p.D433 Mutation"
+    ],
+    "tumor_pathogenic": [
+      "KRAS p.G13D Mutation",
+      "TP53 p.A276G Mutation"
+    ]
+  },
+  {
+    "id": 2,
+    "age": 26,
+    "sex": "",
+    "diagnosis": "Urachal Carcinoma",
+    "stage": "IV",
+    "type": "Panel",
+    "germline_alteration": [],
+    "tumor_alteration": [
+      "KRAS p.G12V Mutation",
+      "BCORL p.R1332* Mutation",
+      "TP53 p.H214fs*7 Mutation",
+      "CDKN2C p.L65F Mutation",
+      "MAP3K1 p.T949_E950insT Mutation",
+      "MYCN p.E47fs*8 Mutation",
+      "CTNNA1 p.K577_L578 > TKL Mutation",
+      "JAK1 p.I597M Mutation",
+      "FANCL p.T367fs*12+ Mutation",
+      "PIK3CA amplification (n>6)",
+      "MYC amplification (n>6)",
+      "MYCL1 amplification (n>6)",
+      "SOX2 amplification (n>6)",
+      "MUTYH amplification (n>6)"
+    ],
+    "tumor_pathogenic": [
+      "KRAS p.G12V Mutation",
+      "TP53 p.H214fs*7 Mutation",
+      "MYCN p.E47fs*8 Mutation",
+      "PIK3CA amplification (n>6)",
+      "MYC amplification (n>6)",
+      "MYCL1 amplification (n>6)",
+      "SOX2 amplification (n>6)",
+      "MUTYH amplification (n>6)"
+    ]
+  },
+  {
+    "id": 3,
+    "age": 58,
+    "sex": "",
+    "diagnosis": "Thymic adenomcarcinoma",
+    "stage": "IV",
+    "type": "Whole-Exome",
+    "germline_alteration": [
+      "BRCA2 p.K3326* (1N)"
+    ],
+    "tumor_alteration": [
+      "SMAD4 p.C363R (1N) Mutation",
+      "TP53 p.305fs (2N_LOH) Mutation",
+      "CDKN1B p.K100N (2N_LOH) Mutation",
+      "ATM p.E1666* (4N) Mutation",
+      "MAP3K8 p.H236Y (1N) Mutation",
+      "TRAF1 p.R70H (2N) Mutation",
+      "HDAC2 p.R409* (1N) Mutation",
+      "TMEM111-TDRD3 fusion",
+      "PRKDC-CDH17 fusion",
+      "EXT1-MAGI2 fusion",
+      "ERBB2 RNA overexpression (RPKM tumor 45 v 1.8 control)",
+      "ERBB3 RNA overexpression (RPKM tumor 65.9 v 0.2 control)",
+      "PDGFRB RNA overexpression (RPKM tumor 35.8 vs 2.3 control)",
+      "TGFA RNA overexpression (RPKM tumor 14.2 v 0.4 control",
+      "EGF RNA overexpression (RPKM tumor 1.9 vs 0.1 control)",
+      "FGFR3 RNA overexpression (RPKM tumor 11.4 vs 1.9 control)",
+      "MET RNA overexpression (RPKM tumor 22.1 v 1.4 control)"
+    ],
+    "tumor_pathogenic": [
+      "SMAD4 p.C363R (1N) Mutation",
+      "ATM p.E1666* (4N) Mutation",
+      "PRKDC-CDH17 fusion",
+      "EXT1-MAGI2 fusion",
+      "ERBB2 amplification",
+      "ERBB3 amplification",
+      "PDGFRB amplification",
+      "TGFA amplification",
+      "EGF amplification",
+      "FGFR3 amplification",
+      "MET amplification"
+    ]
+  },
+  {
+    "id": 4,
+    "age": 59,
+    "sex": "",
+    "diagnosis": "Loropharyngeal carcinoma",
+    "stage": "IV",
+    "type": "Panel",
+    "germline_alteration": [],
+    "tumor_alteration": [
+      "PIK3CA p.E545K Mutation (AF 25%)",
+      "MAPK1 p.E322K Mutation (AF 10%)",
+      "FGFR3 p.D786N Mutation (AF 30%)"
+    ],
+    "tumor_pathogenic": [
+      "PIK3CA p.E545K Mutation (AF 25%)",
+      "MAPK1 p.E322K Mutation (AF 10%)"
+    ]
+  },
+  {
+    "id": 5,
+    "age": 64,
+    "sex": "f",
+    "diagnosis": "Lung Adenocarcinoma",
+    "stage": "IV",
+    "type": "Panel",
+    "germline_alteration": [],
+    "tumor_alteration": [
+      "EGFR p.E746_A750del Mutation (AF 43%)",
+      "TP53 p.A138_Q144del Mutation (AF 37%)",
+      "MET Amplification FISH positive"
+    ],
+    "tmb": "TMB 3.8 Mut/Mb",
+    "tumor_pathogenic": [
+      "EGFR Mutation"
+    ]
+  },
+  {
+    "id": 6,
+    "age": 59,
+    "sex": "m",
+    "diagnosis": "Lung Adenocarcinoma",
+    "stage": "IV",
+    "type": "Panel",
+    "germline_alteration": [],
+    "tumor_alteration": [
+      "KRAS p.G12C Mutation (AF 18%)",
+      "KEAP1 p.L276F Mutation (AF 45%)",
+      "STK11 p.K83Tfs*13 Mutation (AF 38%)"
+    ],
+    "tumor_pathogenic": [
+      "KRAS p.G12C Mutation (AF 18%)"
+    ]
+  },
+  {
+    "id": 7,
+    "age": 41,
+    "sex": "f",
+    "diagnosis": "Melanoma",
+    "stage": "IV",
+    "type": "Panel",
+    "germline_alteration": [],
+    "tumor_alteration": [
+      "TMB 12.8 Mut/Mb",
+      "NF1 p.I1605fs Mutation (AF 39%)",
+      "TP53 c.672+1G>A Mutation (AF 50%)",
+      "RB1 p.Q846* Mutation (AF 20%)",
+      "TERT p.R859Q Mutation (AF 41%)"
+    ],
+    "tumor_pathogenic": [
+      "TMB Tumor Mutational Burden 12.8 Mut/Mb",
+      "NF1 p.I1605fs Mutation (AF 39%)",
+      "TP53 c.672+1G>A Mutation (AF 50%)"
+    ]
+  },
+  {
+    "id": 8,
+    "age": 46,
+    "sex": "m",
+    "diagnosis": "Cholangiocarcinoma",
+    "stage": "IV",
+    "type": "Panel",
+    "germline_alteration": [],
+    "tumor_alteration": [
+      "TMB 1.2 Mut/Mb",
+      "FGFR2::BICC1 Fusion",
+      "TP53 p.E258* Mutation (AF 52%)"
+    ],
+    "tumor_pathogenic": [
+      "TMB Tumor Mutational Burden 1.2 Mut/Mb",
+      "FGFR2::BICC1 Fusion",
+      "TP53 p.E258* Mutation (AF 52%)"
+    ]
+  },
+  {
+    "id": 9,
+    "age": 79,
+    "sex": "m",
+    "diagnosis": "Salivary Duct Carcinoma",
+    "stage": "IV",
+    "type": "Panel",
+    "germline_alteration": [],
+    "tumor_alteration": [
+      "TMB 10.5 Mut/Mb",
+      "HRAS p.Q61R Mutation (AF 44%)",
+      "PIK3CA p.E545K Mutation (AF 39%)",
+      "TP53 p.T211A Mutation (AF 60%)",
+      "KMT2C p.P2493Q Mutation (AF 21%)"
+    ],
+    "tumor_pathogenic": [
+      "TMB Tumor Mutational Burden 10.5 Mut/Mb",
+      "HRAS p.Q61R Mutation (AF 44%)",
+      "PIK3CA p.E545K Mutation (AF 39%)"
+    ]
+  },
+  {
+    "id": 10,
+    "age": 52,
+    "sex": "f",
+    "diagnosis": "Lung Adenocarcinoma",
+    "stage": "IV",
+    "type": "Panel",
+    "germline_alteration": [],
+    "tumor_alteration": [
+      "EGFR p.E746_A750del Mutation (AF 50%)",
+      "EGFR p.C797S Mutation (AF 29%)",
+      "STK11 p.C210* Mutation (AF 39%)"
+    ],
+    "tumor_pathogenic": [
+      "EGFR p.E746_A750del Mutation (AF 50%)",
+      "EGFR p.C797S Mutation (AF 29%)",
+      "STK11 p.C210* Mutation (AF 39%)"
+    ]
+  }
+]

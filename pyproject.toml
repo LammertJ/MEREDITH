@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "meredith"
+version = "0.1.0"
+description = "MEREDITH (Medical Evidence Retrieval and Data Integration for Tailored Healthcare) is a novel LLM system to support treatment recommendations in precision oncology."
+authors = ["Jacqueline Lammert, jacqueline.lammert@mrt.tum.de", "Maximilian Tschochohei, maxtsc@gmail.com"]
+readme = "README.md"
+packages = [{include = "meredith", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+google-cloud-aiplatform = "^1.48.0"
+google-cloud-discoveryengine = "^0.11.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
