@@ -2,7 +2,7 @@
 name = "meredith"
 version = "0.1.0"
 description = "MEREDITH (Medical Evidence Retrieval and Data Integration for Tailored Healthcare) is a novel LLM system to support treatment recommendations in precision oncology."
-authors = ["Jacqueline Lammert, jacqueline.lammert@mrt.tum.de", "Maximilian Tschochohei, maxtsc@gmail.com"]
+authors = ["Jacqueline Lammert, jacqueline.lammert@mri.tum.de", "Maximilian Tschochohei, maxtsc@gmail.com"]
 readme = "README.md"
 packages = [{include = "meredith", from = "src"}]
 
