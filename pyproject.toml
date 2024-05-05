@@ -10,6 +10,7 @@ packages = [{include = "meredith", from = "src"}]
 python = "^3.11"
 google-cloud-aiplatform = "^1.48.0"
 google-cloud-discoveryengine = "^0.11.11"
+scikit-learn = "^1.4.2"
 
 [build-system]
 requires = ["poetry-core"]

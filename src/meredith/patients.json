@@ -17,7 +17,11 @@
     "tumor_pathogenic": [
       "KRAS p.G13D Mutation",
       "TP53 p.A276G Mutation"
-    ]
+    ],
+    "mtb_recommendations":{
+      "KRAS p.G13D Mutation": "Based on the tumor profile, no definitive treatment recommendation can be offered.",
+      "TP53 p.A276G Mutation": "No treatment recommendation"
+    }
   },
   {
     "id": 2,
@@ -52,7 +56,17 @@
       "MYCL1 amplification (n>6)",
       "SOX2 amplification (n>6)",
       "MUTYH amplification (n>6)"
-    ]
+    ],
+    "mtb_recommendations": {
+      "KRAS p.G12V Mutation": "Everolimus",
+      "TP53 p.H214fs*7 Mutation": "No treatment recommendation",
+      "MYCN p.E47fs*8 Mutation": "No treatment recommendation",
+      "PIK3CA amplification (n>6)": "Everolimus",
+      "MYC amplification (n>6)": "No treatment recommendation",
+      "MYCL1 amplification (n>6)": "No treatment recommendation",
+      "SOX2 amplification (n>6)": "No treatment recommendation",
+      "MUTYH amplification (n>6)": "No treatment recommendation"
+    }
   },
   {
     "id": 3,
@@ -95,7 +109,20 @@
       "EGF amplification",
       "FGFR3 amplification",
       "MET amplification"
-    ]
+    ],
+    "mtb_recommendations": {
+      "SMAD4 p.C363R (1N) Mutation": "No treatment recommendation",
+      "ATM p.E1666* (4N) Mutation": "Perform HRD testing to determine if PARP inhibitors are appropriate, and then add them to the treatment regimen if the patient has not progressed on platinum-based chemotherapy.",
+      "PRKDC-CDH17 fusion":"No treatment recommendation",
+      "EXT1-MAGI2 fusion": "No treatment recommendation",
+      "ERBB2 amplification": "HER2 inhibition with trastuzumab deruxtecan, additional HER2-IHC recommended (evidence level at least m2A, DESTINY-04)",
+      "ERBB3 amplification":"No treatment recommendation",
+      "PDGFRB amplification":"No treatment recommendation",
+      "TGFA amplification":"No treatment recommendation",
+      "EGF amplification":"No treatment recommendation",
+      "FGFR3 amplification": "Futibatinib (PMID 34551969), m2B",
+      "MET amplification": "Conduct cMET immunohistochemistry (IHC) to assess cMET expression and consider telisotuzumab vedotin (or alternatively, capmatinib)"
+    }
   },
   {
     "id": 4,
@@ -113,7 +140,11 @@
     "tumor_pathogenic": [
       "PIK3CA p.E545K Mutation (AF 25%)",
       "MAPK1 p.E322K Mutation (AF 10%)"
-    ]
+    ],
+    "mtb_recommendations": {
+      "PIK3CA p.E545K Mutation (AF 25%)":"Inclusion in the CRAFT trial (NCT04551521) after failing chemotherapy treatment and alpelisib (PIK3CA inhibitor), PMID: 29401002, PMID: 31091374, PMID: 35133871.",
+      "MAPK1 p.E322K Mutation (AF 10%)":"No treatment recommendation"
+    }
   },
   {
     "id": 5,
@@ -131,7 +162,10 @@
     "tmb": "TMB 3.8 Mut/Mb",
     "tumor_pathogenic": [
       "EGFR Mutation"
-    ]
+    ],
+    "mtb_recommendations": {
+      "EGFR Mutation":"MET amplification is a potential secondary resistance mechanism in EGFR-inhibitor treated patients. If no EGFR inhibitors have been used, consider EGFR inhibition based on the level of MET amplification and clinical progression. However, if resistance is mediated by MET, use EGFR inhibitors with caution (PMID: 34837746)."
+    }
   },
   {
     "id": 6,
@@ -148,7 +182,10 @@
     ],
     "tumor_pathogenic": [
       "KRAS p.G12C Mutation (AF 18%)"
-    ]
+    ],
+    "mtb_recommendations": {
+      "KRAS p.G12C Mutation (AF 18%)":"Sotorasib, approved second-line treatment for lung cancer, source: DOI: 10.1056/NEJMoa2103695. Study check nNGM, e.g. KontRASt-01 & -03 (JGQ)"
+    }
   },
   {
     "id": 7,
@@ -169,7 +206,12 @@
       "TMB Tumor Mutational Burden 12.8 Mut/Mb",
       "NF1 p.I1605fs Mutation (AF 39%)",
       "TP53 c.672+1G>A Mutation (AF 50%)"
-    ]
+    ],
+    "mtb_recommendations": {
+      "TMB Tumor Mutational Burden 12.8 Mut/Mb":"No treatment recommendation",
+      "NF1 p.I1605fs Mutation (AF 39%)":"CR: MEK inhibition with trametinib in NF1 mutated melanoma, PR, m1C, doi: 10.1200/PO.18.00028",
+      "TP53 c.672+1G>A Mutation (AF 50%)":"No treatment recommendation"
+    }
   },
   {
     "id": 8,
@@ -188,7 +230,12 @@
       "TMB Tumor Mutational Burden 1.2 Mut/Mb",
       "FGFR2::BICC1 Fusion",
       "TP53 p.E258* Mutation (AF 52%)"
-    ]
+    ],
+    "mtb_recommendations": {
+      "TMB Tumor Mutational Burden 1.2 Mut/Mb":"No treatment recommendation",
+      "FGFR2::BICC1 Fusion":"Futibatinib and pemigatinib are approved therapies for this condition (EMA)",
+      "TP53 p.E258* Mutation (AF 52%)":"No treatment recommendation"
+    }
   },
   {
     "id": 9,
@@ -209,7 +256,12 @@
       "TMB Tumor Mutational Burden 10.5 Mut/Mb",
       "HRAS p.Q61R Mutation (AF 44%)",
       "PIK3CA p.E545K Mutation (AF 39%)"
-    ]
+    ],
+    "mtb_recommendations": {
+      "TMB Tumor Mutational Burden 10.5 Mut/Mb":"Immunotherapy with Pembrolizumab could be explored as a treatment possibility.",
+      "HRAS p.Q61R Mutation (AF 44%)":"Phase II trial, 30 patients with HNSCC, tipifarnib, ORR 55%, mPFS 5.6 months, PMID 33750196",
+      "PIK3CA p.E545K Mutation (AF 39%)":"A case report describes a patient with salivary duct carcinoma (SDC) harboring a PIK3CA mutation and high androgen receptor (AR) expression who achieved a metabolic complete response (CR) with alpelisib and bicalutamide therapy for at least 12 months (m1C, PMID: 34036229, PMID: 29401002; PMID:31091374; PMID: 35133871). PIK3CA mutations may confer a higher risk of developing resistance to HRAS targeted therapies. Consider evaluation for enrolment in the CRAFT study (NCT04551521) after failure of chemotherapy, even if the patient has an HRAS mutation."
+    }
   },
   {
     "id": 10,
@@ -228,6 +280,11 @@
       "EGFR p.E746_A750del Mutation (AF 50%)",
       "EGFR p.C797S Mutation (AF 29%)",
       "STK11 p.C210* Mutation (AF 39%)"
-    ]
+    ],
+    "mtb_recommendations": {
+      "EGFR p.E746_A750del Mutation (AF 50%)":"regimen infiltration by CD8+ T cells. Source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5762318/",
+      "EGFR p.C797S Mutation (AF 29%)":"Resistance mutation to third-line TKIs. Source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8724843/",
+      "STK11 p.C210* Mutation (AF 39%)":"The presence of a STK11 p.C210 mutation (AF 39%) suggests the possibility of primary resistance to PD-1 blockade. Source: https://meetings.asco.org/abstracts-presentations/175038"
+    }
   }
 ]

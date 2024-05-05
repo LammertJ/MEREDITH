@@ -29,6 +29,7 @@ from google.cloud import aiplatform
 # Local required tools
 from recommendations import recommendations
 from set_variable import set_variable
+from cosine import cosine
 
 # Begin by defining global variables
 
@@ -41,13 +42,13 @@ except:
    print("Error: No credentials.json found in directory. Please create Google Cloud service account credentials (https://cloud.google.com/iam/docs/keys-create-delete).")
    exit()
 
-PROJECT_ID = set_variable("Google Cloud Project ID", "maxtsc-test")
+PROJECT_ID = set_variable("Google Cloud Project ID")
 REGION = set_variable("Google Cloud Region", "us-central1") 
 LOCATION = set_variable("Discovery Engine Location", "global")
 
-LITERATURE_TOOL = set_variable("Discovery Engine ID of your Literature Repository","meredith-literature_1712256898505")
-GUIDELINES_TOOL = set_variable("Discovery Engine ID of your Guidelines Repository","meredith-guidelines_1712257162846")
-TRIALS_TOOL = set_variable("Discovery Engine ID of your Trials Repository","meredith-trials_1712257104958")
+LITERATURE_TOOL = set_variable("Discovery Engine ID of your Literature Repository")
+GUIDELINES_TOOL = set_variable("Discovery Engine ID of your Guidelines Repository")
+TRIALS_TOOL = set_variable("Discovery Engine ID of your Trials Repository")
 
 
 
@@ -76,5 +77,11 @@ print(f"Loaded {len(patients)} patients")
 
 for patient in patients:
   for biomarker in patient["tumor_pathogenic"]:
+      print(16*"*")
       print(f"""Patient {patient["id"]}, Biomarker: {biomarker}""")
-      print(recommendations(patient["diagnosis"],biomarker, LITERATURE_TOOL, GUIDELINES_TOOL, TRIALS_TOOL, PROJECT_ID, REGION, LOCATION, CREDENTIALS))
+      recommendation = recommendations(patient["diagnosis"],biomarker, LITERATURE_TOOL, 
+                                       GUIDELINES_TOOL, TRIALS_TOOL, PROJECT_ID, REGION, 
+                                       LOCATION, CREDENTIALS)
+      print(recommendation)
+      print("Non-normalized Cosine Similarity: " + str(cosine(patient["mtb_recommendations"][biomarker],recommendation)))
+
