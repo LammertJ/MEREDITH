@@ -1,0 +1,14 @@
+{
+    "versions": {
+        "v0": {
+            "literature_prompt": "literature_prompt_v0",
+            "guidelines_prompt": "guidelines_prompt_v0",
+            "studies_prompt": "studies_prompt_v0",
+            "summary_prompt": "summary_prompt_v0",
+            "literature_datastore_id": "meredith-literature_1712256898505",
+            "guidlines_datastore_id": "meredith-guidelines_1712257162846",
+            "studies_datastore_id": "meredith-trials_1712257104958",
+            "project_id": "maxtsc-test"
+        }
+    }  
+}
