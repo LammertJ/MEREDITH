@@ -1,0 +1,14 @@
+{
+    "versions": {
+        "v0": {
+            "literature_prompt": "literature_prompt_v0",
+            "guidelines_prompt": "guidelines_prompt_v0",
+            "studies_prompt": "studies_prompt_v0",
+            "summary_prompt": "summary_prompt_v0",
+            "literature_datastore_id": "to-update",
+            "guidlines_datastore_id": "to-update",
+            "studies_datastore_id": "to-update",
+            "project_id": "to-update"
+        }
+    }  
+}
